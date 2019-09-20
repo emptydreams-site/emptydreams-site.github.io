@@ -1,4 +1,4 @@
 {
-  "root": "index.html",
+  "root": "/",
   "clean_urls": true
 }
