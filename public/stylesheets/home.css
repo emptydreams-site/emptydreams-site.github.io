@@ -1,0 +1,21 @@
+.base {
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+.base__image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.base__continue {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 25px;
+  height: 25px;
+}

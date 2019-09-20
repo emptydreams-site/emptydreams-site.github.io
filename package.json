@@ -1,0 +1,40 @@
+{
+  "name": "emptydreams",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "serve-favicon": "~2.4.5"
+  },
+  "description": "empty dreams",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandchandra50/emptydreams.git"
+  },
+  "keywords": [
+    "empty",
+    "dreams",
+    "clothes",
+    "anand",
+    "chandra",
+    "clothing",
+    "hype",
+    "street"
+  ],
+  "author": "Anand Chandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandchandra50/emptydreams/issues"
+  },
+  "homepage": "https://github.com/anandchandra50/emptydreams#readme"
+}
