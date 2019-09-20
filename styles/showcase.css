@@ -1,0 +1,50 @@
+body {
+  background: white;
+}
+.showcase {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase__image {
+  width: 80vw;
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  border-radius: 5px;
+}
+
+.showcase__bg-image {
+  position: absolute;
+  left: 20px;
+  width: 100px;
+}
+
+.showcase__bg-image-1 {
+  top: 50px;
+}
+
+.showcase__bg-image-2 {
+  top: 950px;
+}
+
+.showcase__bg-image-3 {
+  top: 1850px;
+}
+
+.mobile-header {
+  visibility: hidden;
+}
+
+@media only screen and (max-width:600px) {
+  .showcase__bg-image {
+    visibility: hidden;
+  }
+
+  .mobile-header {
+    margin: 36px auto 0 auto;
+    font-weight: 600;
+    visibility: visible;
+    font-size: 12px;
+  }
+}
