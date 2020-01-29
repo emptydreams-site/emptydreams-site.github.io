@@ -37,12 +37,13 @@ body {
 }
 
 .showcase__sell {
-  margin: 0 auto 36px auto;
+  margin: 36px auto 0 auto;
   width: 80vw;
   max-width: 600px;
   font-size: 12px;
   font-weight: 600;
   opacity: 0.5;
+  text-align: center;
 }
 
 @media only screen and (max-width:600px) {
